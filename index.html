@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1 user-scalable=no"
+    />
+    <title>BeardFans</title>
+    <link rel="icon" type="image/svg" href="icons/manicon.svg" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <link rel="preconnect" href="//fonts.googleapis.com" />
+    <link rel="preconnect" href="//fonts.gstatic.com" crossorigin />
+    <link
+      href="//fonts.googleapis.com/css2?family=Bungee&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="functions.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <div class="mainS">
+      <div class="navbar">
+        <a
+          style="float: left"
+          onclick="window.location.reload()"
+          class="lft"
+          href="#bf"
+          >BF</a
+        >
+        <a class="rght" onclick="tabSwitch()" href="#signup" id="btnTrigger"
+          >Join Now</a
+        >
+      </div>
+      <div class="container">
+        <div class="textS">BeardFans<span class="dotS">.</span></div>
+        <button
+          class="subbutton"
+          onclick="tabSwitch()"
+          style="vertical-align: middle"
+          id="btnTrigger"
+        >
+          <span>FREE SUB</span>
+        </button>
+        <div class="textaki" id="textaki">
+          " Exeis mousia exeis afto pou theloun oi fans sou. Mpes kai des ti se
+          perimenei se ayto to site wste na voithiseis tous Fans sou "
+        </div>
+        <!-- SubForm -->
+        <div class="formcontainer" id="formcontainer">
+          <form action="" style="max-width: 300px">
+            <h2
+              style="
+                color: #eeeeee;
+                font-weight: lighter;
+                font-size: 18px;
+                margin-bottom: 10px;
+              "
+            >
+              Register Form
+            </h2>
+            <div class="input-container">
+              <i class="icon"
+                ><img src="icons/user-solid.svg" class="iconS"
+              /></i>
+              <input
+                class="input-field"
+                type="text"
+                placeholder="Username"
+                name="usrnm"
+              />
+            </div>
+
+            <div class="input-container">
+              <i class="icon"
+                ><img src="icons/envelope-solid.svg" class="iconS"
+              /></i>
+              <input
+                class="input-field"
+                type="text"
+                placeholder="Email"
+                name="email"
+              />
+            </div>
+
+            <div class="input-container">
+              <i class="icon"
+                ><img src="icons/key-solid.svg" class="iconS"
+              /></i>
+              <input
+                class="input-field"
+                type="password"
+                placeholder="Password"
+                name="psw"
+              />
+            </div>
+
+            <button
+              type="submit"
+              class="btn"
+              onclick="window.location.reload()"
+            >
+              Register
+            </button>
+          </form>
+        </div>
+      </div>
+      <footer>® End here</footer>
+    </div>
+  </body>
+</html>
