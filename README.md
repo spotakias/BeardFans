@@ -2,3 +2,4 @@
 - Html/CSS/Js
 
 ### Try it
+https://spotakias.github.io/BeardFans/
