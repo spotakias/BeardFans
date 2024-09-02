@@ -10,7 +10,7 @@
 //     y.style.display = "block";
 //   }
 // }
-
+window.onload = tabSwitch;
 function tabSwitch() {
   var formContainer = document.getElementById("formcontainer");
   var textArea = document.getElementById("textaki");
